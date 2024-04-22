@@ -1,11 +1,12 @@
 {
-  "name": "apex-backend",
+  "name": "node-express-backend-boilerpate",
   "version": "1.0.0",
-  "description": "APEX-Backend",
+  "description": "This boilerplate provides a foundation for building a Node.js backend server using Express. It includes user authentication features such as user signup and signin. Additionally, it is designed to seamlessly deploy on Vercel for easy scalability and hosting.",
   "main": "index.ts",
   "pre-commit": [
     "ts.check",
-    "build"
+    "build",
+    "add-build"
   ],
   "scripts": {
     "dev": "ts-node-dev index.ts",
